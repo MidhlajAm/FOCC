@@ -1,0 +1,27 @@
+{
+  "name": "focc-bughunt",
+  "private": true,
+  "version": "1.4.0",
+  "description": "FOCC open source community club portal",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm --workspace server run dev",
+    "dev:web": "npm --workspace client run dev",
+    "build": "npm --workspace client run build",
+    "preview": "npm --workspace client run preview",
+    "reset-db": "node server/scripts/reset-db.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

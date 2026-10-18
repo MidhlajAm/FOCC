@@ -1,0 +1,848 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nandana Rajeev",
+      "username": "nandana",
+      "email": "nandana@focc.club",
+      "password": "openSource@2024",
+      "role": "admin",
+      "year": 4,
+      "branch": "CSE",
+      "joinedOn": "2022-07-18",
+      "points": 940,
+      "bio": "Club lead. Maintains the FOCC infra and the CI runners.",
+      "skills": [
+        "Linux",
+        "Docker",
+        "Go",
+        "Nginx"
+      ],
+      "githubUrl": "https://github.com/nandana",
+      "avatar": "/avatars/nandana.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "weekly"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Aswin Prakash",
+      "username": "aswin",
+      "email": "aswin.p@focc.club",
+      "password": "hunter2hunter",
+      "role": "lead",
+      "year": 4,
+      "branch": "CSE",
+      "joinedOn": "2022-08-02",
+      "points": 815,
+      "bio": "Kernel curious. Wrote the club attendance bot.",
+      "skills": [
+        "C",
+        "Rust",
+        "Zig"
+      ],
+      "githubUrl": "https://github.com/aswinp",
+      "avatar": "/avatars/aswin.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "daily"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Fathima Hamna",
+      "username": "hamna",
+      "email": "hamna@focc.club",
+      "password": "gitpushforce",
+      "role": "lead",
+      "year": 3,
+      "branch": "IT",
+      "joinedOn": "2023-07-25",
+      "points": 702,
+      "bio": "Design lead. Runs the Inkscape and Figma-to-FOSS sessions.",
+      "skills": [
+        "Inkscape",
+        "Blender",
+        "CSS",
+        "Accessibility"
+      ],
+      "githubUrl": "https://github.com/hamna-dev",
+      "avatar": "/avatars/hamna.svg",
+      "preferences": {
+        "theme": "light",
+        "digest": "weekly"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Muhammed Sinan",
+      "username": "sinan",
+      "email": "sinan@focc.club",
+      "password": "sudo-make-me",
+      "role": "member",
+      "year": 3,
+      "branch": "ECE",
+      "joinedOn": "2023-08-11",
+      "points": 588,
+      "bio": "Hardware hacker. RISC-V on FPGA, badly.",
+      "skills": [
+        "Verilog",
+        "Python",
+        "KiCad"
+      ],
+      "githubUrl": "https://github.com/sinan-ece",
+      "avatar": "/avatars/sinan.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "never"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Aswin Krishna",
+      "username": "aswin",
+      "email": "krishna.a@focc.club",
+      "password": "vimIsBetter",
+      "role": "member",
+      "year": 2,
+      "branch": "CSE",
+      "joinedOn": "2024-07-30",
+      "points": 512,
+      "bio": "Second year. Maintains the club Arch mirror.",
+      "skills": [
+        "Arch",
+        "Bash",
+        "Ansible"
+      ],
+      "githubUrl": "https://github.com/aswin-k",
+      "avatar": "/avatars/aswink.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "weekly"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Devika Menon",
+      "username": "devika",
+      "email": "devika@focc.club",
+      "password": "reactHooks99",
+      "role": "member",
+      "year": 2,
+      "branch": "CSE",
+      "joinedOn": "2024-08-05",
+      "points": 477,
+      "bio": "Frontend. Ported the club site to Vite over one hacknight.",
+      "skills": [
+        "React",
+        "Vite",
+        "TypeScript"
+      ],
+      "githubUrl": "https://github.com/devikamenon",
+      "avatar": "/avatars/devika.svg",
+      "preferences": {
+        "theme": "light",
+        "digest": "daily"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Rahul Raveendran",
+      "username": "rahul",
+      "email": "rahul.r@focc.club",
+      "password": "chmod777pls",
+      "role": "member",
+      "year": 3,
+      "branch": "IT",
+      "joinedOn": "2023-09-01",
+      "points": 431,
+      "bio": "Packaging nerd. AUR contributor.",
+      "skills": [
+        "Packaging",
+        "Makefile",
+        "Shell"
+      ],
+      "githubUrl": "https://github.com/rahulr",
+      "avatar": "/avatars/rahul.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "weekly"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Sneha Baiju",
+      "username": "sneha",
+      "email": "sneha.b@focc.club",
+      "password": "grafanaQueen",
+      "role": "member",
+      "year": 1,
+      "branch": "CSE",
+      "joinedOn": "2025-08-14",
+      "points": 386,
+      "bio": "First year, already runs Prometheus at home.",
+      "skills": [
+        "Grafana",
+        "Prometheus",
+        "Python"
+      ],
+      "githubUrl": "https://github.com/snehab",
+      "avatar": "/avatars/sneha.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "daily"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Arjun Vinod",
+      "username": "arjun",
+      "email": "arjun.v@focc.club",
+      "password": "tabsOverSpaces",
+      "role": "member",
+      "year": 2,
+      "branch": "MECH",
+      "joinedOn": "2024-08-20",
+      "points": 355,
+      "bio": "FreeCAD evangelist in a SolidWorks world.",
+      "skills": [
+        "FreeCAD",
+        "OpenSCAD",
+        "Python"
+      ],
+      "githubUrl": "https://github.com/arjunv",
+      "avatar": "/avatars/arjun.svg",
+      "preferences": {
+        "theme": "light",
+        "digest": "weekly"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Meenakshi S",
+      "username": "meenakshi",
+      "email": "meenakshi.s@focc.club",
+      "password": "docsAreCode",
+      "role": "member",
+      "year": 1,
+      "branch": "IT",
+      "joinedOn": "2027-08-01",
+      "points": 298,
+      "bio": "Docs maintainer. Believes README is a product.",
+      "skills": [
+        "Docs",
+        "Markdown",
+        "Sphinx"
+      ],
+      "githubUrl": "https://github.com/meenakshi-s",
+      "avatar": "/avatars/meenakshi.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "weekly"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Jose Mathew",
+      "username": "jose",
+      "email": "jose.m@focc.club",
+      "password": "neovimBtw",
+      "role": "member",
+      "year": 4,
+      "branch": "CSE",
+      "joinedOn": "2022-07-19",
+      "points": 264,
+      "bio": "Wrote three plugins, finished none.",
+      "skills": [
+        "Lua",
+        "Neovim",
+        "Go"
+      ],
+      "githubUrl": "https://github.com/josem",
+      "avatar": "/avatars/jose.svg",
+      "preferences": {
+        "theme": "dark",
+        "digest": "never"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Anjali Thomas",
+      "username": "anjali",
+      "email": "anjali.t@focc.club",
+      "password": "postgresPls",
+      "role": "member",
+      "year": 3,
+      "branch": "CSE",
+      "joinedOn": "2023-08-09",
+      "points": 190,
+      "bio": "Database sessions, SQL golf, query plans.",
+      "skills": [
+        "PostgreSQL",
+        "SQL",
+        "Python"
+      ],
+      "githubUrl": "https://github.com/anjalit",
+      "avatar": "/avatars/anjali.svg",
+      "preferences": {
+        "theme": "light",
+        "digest": "daily"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": 101,
+      "title": "Install Fest 2026",
+      "slug": "install-fest-2026",
+      "startsAt": "2026-10-04T00:30:00+05:30",
+      "venue": "CS Lab 2",
+      "capacity": 60,
+      "mode": "offline",
+      "organizerId": 2,
+      "tags": [
+        "linux",
+        "beginner"
+      ],
+      "summary": "Bring a laptop, leave with a working distro. Dual boot support all day.",
+      "registered": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Git Deep Dive: Rebase Without Fear",
+      "slug": "git-deep-dive",
+      "startsAt": "2026-10-11T10:00:00+05:30",
+      "venue": "Seminar Hall",
+      "capacity": 30,
+      "mode": "offline",
+      "organizerId": 3,
+      "tags": [
+        "git",
+        "intermediate"
+      ],
+      "summary": "Interactive rebase, reflog rescue missions and commit hygiene.",
+      "registered": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Hacknight: Ship Something by 6AM",
+      "slug": "hacknight-oct",
+      "startsAt": "2026-10-18T21:00:00+05:30",
+      "venue": "Innovation Centre",
+      "capacity": 45,
+      "mode": "offline",
+      "organizerId": 99,
+      "tags": [
+        "hackathon",
+        "all-levels"
+      ],
+      "summary": "Overnight build session. Coffee sponsored by the alumni chapter.",
+      "registered": [
+        2,
+        3,
+        5,
+        8,
+        12
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Intro to Blender Grease Pencil",
+      "slug": "blender-grease-pencil",
+      "startsAt": "2026-11-02T14:30:00+05:30",
+      "venue": "Online / Jitsi",
+      "capacity": 100,
+      "mode": "online",
+      "organizerId": 3,
+      "tags": [
+        "design",
+        "beginner"
+      ],
+      "summary": "2D animation inside Blender, from zero to a looping walk cycle.",
+      "registered": [
+        6,
+        9,
+        10
+      ]
+    },
+    {
+      "id": 105,
+      "title": "FOCC Bug Hunt 2026 - Kickoff Briefing",
+      "slug": "bug-hunt-kickoff",
+      "startsAt": "2026-09-27T16:00:00+05:30",
+      "venue": "Seminar Hall",
+      "capacity": 120,
+      "mode": "hybrid",
+      "organizerId": 1,
+      "tags": [
+        "security",
+        "contest"
+      ],
+      "summary": "Rules, scoring and the submission template for the club bug hunt.",
+      "registered": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Packaging Workshop: From Source to .deb",
+      "slug": "packaging-workshop",
+      "startsAt": "2025-03-14T11:00:00+05:30",
+      "venue": "CS Lab 1",
+      "capacity": 40,
+      "mode": "offline",
+      "organizerId": 7,
+      "tags": [
+        "packaging",
+        "intermediate"
+      ],
+      "summary": "Archived session. Slides and recording in the resources tab.",
+      "registered": [
+        1,
+        2,
+        4,
+        7,
+        11
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 201,
+      "name": "attendly",
+      "slug": "attendly",
+      "tagline": "QR attendance for club sessions, self hosted.",
+      "description": "<p>Flask + SQLite attendance tracker. Generates a rotating QR per session so screenshots go stale in 30 seconds.</p><p>Deployed on the club Pi.</p>",
+      "tags": [
+        "Python",
+        "Flask",
+        "SQLite"
+      ],
+      "ownerId": 2,
+      "repoUrl": "https://github.com/focc-club/attendly",
+      "stars": 143,
+      "upvotes": 38,
+      "status": "active",
+      "license": "MIT",
+      "createdAt": "2024-02-11"
+    },
+    {
+      "id": 202,
+      "name": "mirror-watch",
+      "slug": "mirror-watch",
+      "tagline": "Health dashboard for our Arch and Debian mirrors.",
+      "description": "<p>Go service that pings mirror endpoints and exposes Prometheus metrics. Grafana dashboard JSON is in the repo.</p>",
+      "tags": [
+        "Go",
+        "Prometheus",
+        "Grafana"
+      ],
+      "ownerId": 5,
+      "repoUrl": "https://github.com/focc-club/mirror-watch",
+      "stars": 96,
+      "upvotes": 31,
+      "status": "active",
+      "license": "Apache-2.0",
+      "createdAt": "2024-09-03"
+    },
+    {
+      "id": 203,
+      "name": "django-clubkit",
+      "slug": "django-clubkit",
+      "tagline": "Reusable Django app for student club portals.",
+      "description": "<p>Events, members, attendance and a public projects wall. Pluggable auth backends.</p>",
+      "tags": [
+        "Django",
+        "Python",
+        "PostgreSQL"
+      ],
+      "ownerId": 12,
+      "repoUrl": "https://github.com/focc-club/django-clubkit",
+      "stars": 210,
+      "upvotes": 54,
+      "status": "active",
+      "license": "BSD-3-Clause",
+      "createdAt": "2023-11-28"
+    },
+    {
+      "id": 204,
+      "name": "gsoc-tracker",
+      "slug": "gsoc-tracker",
+      "tagline": "Track Google Summer of Code orgs our seniors got into.",
+      "description": "<p>Static site generator that builds a timeline of accepted proposals from a YAML file.</p>",
+      "tags": [
+        "Google Summer of Code",
+        "Astro",
+        "YAML"
+      ],
+      "ownerId": 11,
+      "repoUrl": "https://github.com/focc-club/gsoc-tracker",
+      "stars": 64,
+      "upvotes": 22,
+      "status": "maintenance",
+      "license": "MIT",
+      "createdAt": "2024-01-09"
+    },
+    {
+      "id": 205,
+      "name": "pi-signage",
+      "slug": "pi-signage",
+      "tagline": "Digital notice board for the CS block TV.",
+      "description": "<p>Chromium kiosk and a tiny Node server. Notices are markdown files in a git repo, so edits are pull requests.</p>",
+      "tags": [
+        "Node",
+        "RaspberryPi",
+        "Kiosk"
+      ],
+      "ownerId": 4,
+      "repoUrl": "https://github.com/focc-club/pi-signage",
+      "stars": 78,
+      "upvotes": 26,
+      "status": "active",
+      "license": "GPL-3.0",
+      "createdAt": "2024-06-21"
+    },
+    {
+      "id": 206,
+      "name": "jsonl-peek",
+      "slug": "jsonl-peek",
+      "tagline": "Terminal viewer for huge JSONL dumps.",
+      "description": "<p>Rust TUI. Streams the file, never loads it fully, fuzzy filters on keys.</p>",
+      "tags": [
+        "Rust",
+        "TUI",
+        "JSON"
+      ],
+      "ownerId": 2,
+      "repoUrl": "https://github.com/focc-club/jsonl-peek",
+      "stars": 302,
+      "upvotes": 71,
+      "status": "active",
+      "license": "MIT",
+      "createdAt": "2023-08-30"
+    },
+    {
+      "id": 207,
+      "name": "kani-notes",
+      "slug": "kani-notes",
+      "tagline": "Malayalam-first note taking with offline sync.",
+      "description": "<p>PWA with CRDT sync. Ships a Malayalam spellcheck dictionary built from public corpora.</p>",
+      "tags": [
+        "PWA",
+        "CRDT",
+        "i18n"
+      ],
+      "ownerId": 10,
+      "repoUrl": "https://github.com/focc-club/kani-notes",
+      "stars": 118,
+      "upvotes": 44,
+      "status": "active",
+      "license": "MIT",
+      "createdAt": "2025-01-16"
+    },
+    {
+      "id": 208,
+      "name": "lab-queue",
+      "slug": "lab-queue",
+      "tagline": "Who gets the 3D printer next. Fairly.",
+      "description": "<p>Priority queue with a weekly fairness reset. Abandoned after the printer broke.</p>",
+      "tags": [
+        "Node",
+        "React",
+        "Sqlite"
+      ],
+      "ownerId": 17,
+      "repoUrl": "https://github.com/focc-club/lab-queue",
+      "stars": 12,
+      "upvotes": 6,
+      "status": "archived",
+      "license": "MIT",
+      "createdAt": "2023-04-02"
+    }
+  ],
+  "posts": [
+    {
+      "id": 303,
+      "slug": "malayalam-input-is-hard",
+      "title": "Malayalam input is harder than you think",
+      "authorId": 10,
+      "publishedAt": "14-08-2026",
+      "tags": [
+        "i18n",
+        "design"
+      ],
+      "readMinutes": 7,
+      "excerpt": "Building a Malayalam-first writing experience for our community.",
+      "body": "Our latest project explores Malayalam input on desktop and mobile.\n\nWe are gathering feedback from members who write in multiple languages every day.",
+      "comments": []
+    },
+    {
+      "id": 301,
+      "slug": "why-we-run-a-bug-hunt",
+      "title": "Why the club runs its own bug hunt",
+      "authorId": 1,
+      "publishedAt": "2026-09-15",
+      "tags": [
+        "club",
+        "security"
+      ],
+      "readMinutes": 6,
+      "excerpt": "Reading code carefully is a skill you cannot outsource. Here is how we train it.",
+      "body": "We noticed something during last year review week. Everyone could generate code. Almost nobody could read it.\n\nSo we built a portal, planted defects in it on purpose, and asked members to hunt. The rules are simple: find it, prove it, document it.\n\nThe hunt is not about tooling. It is about attention.",
+      "comments": [
+        {
+          "id": 1,
+          "authorId": 6,
+          "body": "Looking forward to the kickoff briefing!",
+          "createdAt": "2026-09-15T18:20:00+05:30"
+        },
+        {
+          "id": 2,
+          "authorId": 2,
+          "body": "Noted, we will confirm at the kickoff briefing.",
+          "createdAt": "2026-09-15T19:02:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "slug": "self-hosting-on-a-pi",
+      "title": "Self hosting the club stack on one Raspberry Pi",
+      "authorId": 4,
+      "publishedAt": "2026-08-28",
+      "tags": [
+        "selfhost",
+        "infra"
+      ],
+      "readMinutes": 9,
+      "excerpt": "Caddy, three containers and a fan that is far too loud.",
+      "body": "The Pi runs attendly, pi-signage and a Gitea instance. Total idle RAM is under 700MB.\n\nCaddy handles TLS. Backups are a nightly rsync to a spare SSD taped to the wall.",
+      "comments": [
+        {
+          "id": 3,
+          "authorId": 8,
+          "body": "Add Prometheus node_exporter, I can share the compose file.",
+          "createdAt": "2026-08-29T09:14:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "slug": "first-pr-guide",
+      "title": "Your first pull request, start to merge",
+      "authorId": 3,
+      "publishedAt": "2026-07-19",
+      "tags": [
+        "beginner",
+        "git"
+      ],
+      "readMinutes": 5,
+      "excerpt": "Fork, branch, commit, push, open, respond. Nothing else.",
+      "body": "Most first PRs fail on the commit message, not the code.\n\nWrite what changed and why. Reviewers read the why first.",
+      "comments": [
+        {
+          "id": 4,
+          "authorId": 9,
+          "body": "This got my FreeCAD patch merged, thanks.",
+          "createdAt": "2026-07-20T11:40:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "slug": "reading-cve-reports",
+      "title": "How to read a CVE report without panicking",
+      "authorId": 2,
+      "publishedAt": "2026-06-30",
+      "tags": [
+        "security"
+      ],
+      "readMinutes": 8,
+      "excerpt": "Severity is context. A 9.8 you cannot reach is less urgent than a 5.3 on your login page.",
+      "body": "Start with the attack vector, not the score. Ask who can reach the code path and what they need to already have.\n\nThen check whether your deployment even enables the feature.",
+      "comments": []
+    },
+    {
+      "id": 306,
+      "slug": "club-retro-2026",
+      "title": "Club retro: what worked in 2026",
+      "authorId": 1,
+      "publishedAt": "2026-05-22",
+      "tags": [
+        "club"
+      ],
+      "readMinutes": 4,
+      "excerpt": "Attendance up, projects up, our Jitsi bill unchanged because it is free.",
+      "body": "Eleven sessions, four shipped projects, two upstream contributions merged.\n\nWeakest area remains documentation. We are fixing that with a docs sprint.",
+      "comments": []
+    }
+  ],
+  "submissions": [
+    {
+      "id": 401,
+      "hunterId": 6,
+      "title": "Demo report 401",
+      "severity": "low",
+      "level": 1,
+      "points": 10,
+      "status": "accepted",
+      "submittedAt": "2026-09-18T10:12:00+05:30"
+    },
+    {
+      "id": 402,
+      "hunterId": 8,
+      "title": "Demo report 402",
+      "severity": "critical",
+      "level": 3,
+      "points": 40,
+      "status": "accepted",
+      "submittedAt": "2026-09-18T11:45:00+05:30"
+    },
+    {
+      "id": 403,
+      "hunterId": 5,
+      "title": "Demo report 403",
+      "severity": "medium",
+      "level": 2,
+      "points": 25,
+      "status": "accepted",
+      "submittedAt": "2026-09-18T12:03:00+05:30"
+    },
+    {
+      "id": 404,
+      "hunterId": 9,
+      "title": "Demo report 404",
+      "severity": "medium",
+      "level": 2,
+      "points": 25,
+      "status": "accepted",
+      "submittedAt": "2026-09-18T12:41:00+05:30"
+    },
+    {
+      "id": 405,
+      "hunterId": 6,
+      "title": "Demo report 405",
+      "severity": "high",
+      "level": 3,
+      "points": 40,
+      "status": "accepted",
+      "submittedAt": "2026-09-19T09:30:00+05:30"
+    },
+    {
+      "id": 406,
+      "hunterId": 12,
+      "title": "Demo report 406",
+      "severity": "low",
+      "level": 1,
+      "points": 10,
+      "status": "accepted",
+      "submittedAt": "2026-09-19T14:22:00+05:30"
+    },
+    {
+      "id": 407,
+      "hunterId": 8,
+      "title": "Demo report 407",
+      "severity": "critical",
+      "level": 3,
+      "points": 40,
+      "status": "accepted",
+      "submittedAt": "2026-09-19T16:10:00+05:30"
+    },
+    {
+      "id": 408,
+      "hunterId": 4,
+      "title": "Demo report 408",
+      "severity": "high",
+      "level": 3,
+      "points": 40,
+      "status": "triage",
+      "submittedAt": "2026-09-19T18:55:00+05:30"
+    },
+    {
+      "id": 409,
+      "hunterId": 7,
+      "title": "Demo report 409",
+      "severity": "medium",
+      "level": 4,
+      "points": 60,
+      "status": "triage",
+      "submittedAt": "2026-09-20T08:05:00+05:30"
+    },
+    {
+      "id": 410,
+      "hunterId": 5,
+      "title": "Demo report 410",
+      "severity": "high",
+      "level": 4,
+      "points": 60,
+      "status": "triage",
+      "submittedAt": "2026-09-20T09:41:00+05:30"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 501,
+      "body": "Bug Hunt submissions open until 12 October, 23:59 IST.",
+      "level": "info",
+      "createdAt": "2026-09-16T10:00:00+05:30"
+    },
+    {
+      "id": 502,
+      "body": "Lab 2 is booked for Install Fest on 4 October. Plan your project demos around it.",
+      "level": "warning",
+      "createdAt": "2026-09-17T15:30:00+05:30"
+    }
+  ],
+  "resetCodes": {}
+}
